@@ -247,7 +247,7 @@ class SearchVideosViewController: UIViewController,UICollectionViewDelegate,UICo
         //////////////////////// Play Youtube Vedio ???????????????
           
     func GetPlayListVedios(word:String) {
-                let str = "https://www.googleapis.com/youtube/v3/search?part=snippet&maxResults=20&q=\(word)&type=video&key=AIzaSyAibZHPeSHXEjvT9ATOPxgsyZ8eTx1UGoU"
+                let str = "https://www.googleapis.com/youtube/v3/search?part=snippet&maxResults=20&q=\(word)&type=video&key=your key"
               var request = URLRequest(url: URL(string: str)!)
               print(str)
               request.httpMethod = "GET"

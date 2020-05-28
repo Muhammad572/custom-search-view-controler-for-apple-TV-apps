@@ -31,7 +31,7 @@ class ChannelVediosViewController: UIViewController,UICollectionViewDelegate,UIC
     
     let playerViewController = AVPlayerViewController()
     
-    let ChannelVediosLink = "https://www.googleapis.com/youtube/v3/playlistItems?part=snippet&maxResults=50&key=AIzaSyAibZHPeSHXEjvT9ATOPxgsyZ8eTx1UGoU&playlistId=PL3iCKmCa2M3ia7CXDxDX5CR9x3_HOMzOQ"
+    let ChannelVediosLink = "https://www.googleapis.com/youtube/v3/playlistItems?part=snippet&maxResults=50&key=yourkey&playlistId=PL3iCKmCa2M3ia7CXDxDX5CR9x3_HOMzOQ"
     var arrChannelVedios = [ChannelVedios]()
     var tokenNum = ""
     var channel = channels()

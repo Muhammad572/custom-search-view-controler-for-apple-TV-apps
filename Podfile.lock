@@ -1,0 +1,26 @@
+PODS:
+  - ParallaxView (3.0.0)
+  - SDWebImage (5.8.0):
+    - SDWebImage/Core (= 5.8.0)
+  - SDWebImage/Core (5.8.0)
+  - XCDYouTubeKit (2.14.0)
+
+DEPENDENCIES:
+  - ParallaxView
+  - SDWebImage
+  - XCDYouTubeKit
+
+SPEC REPOS:
+  trunk:
+    - ParallaxView
+    - SDWebImage
+    - XCDYouTubeKit
+
+SPEC CHECKSUMS:
+  ParallaxView: 41fd29ccf917e9790ea28e2b5a94527cc33a2b3b
+  SDWebImage: 84000f962cbfa70c07f19d2234cbfcf5d779b5dc
+  XCDYouTubeKit: 04a2f89dca6c5c53d1786701a0e98dcb484be7a8
+
+PODFILE CHECKSUM: 4b26c57d9382a7a462f397e55b016201dc34a6f2
+
+COCOAPODS: 1.8.4
